@@ -1,18 +1,9 @@
-<<<<<<< HEAD
-import React from 'react';
-import Fixtures from './Fixtures';
 
-function App() {
-  return (
-    <div className="App">
-      Last Person Standing
-      <Fixtures />
-    </div>
-=======
 import '../App.css';
 import Login from './Login';
 import Register from './Register';
 import MemberArea from './MembersArea';
+import Fixtures from './Fixtures';
 
 function App() {
   return (
@@ -20,8 +11,8 @@ function App() {
     <Login />
     <Register />
     <MemberArea />
+    <Fixtures />
     </>
->>>>>>> 7a4dae46b86252b6ff755581bb5115fbc79a3398
   );
 }
 
