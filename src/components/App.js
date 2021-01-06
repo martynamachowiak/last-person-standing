@@ -1,17 +1,18 @@
-
-import '../App.css';
-import Login from './Login';
-import Register from './Register';
-import MemberArea from './MembersArea';
-import Fixtures from './Fixtures';
+import React from "react";
+import Fixtures from "./Fixtures";
+import "../App.css";
+import Login from "./Login";
+import Register from "./Register";
+import MemberArea from "./MembersArea";
 
 function App() {
   return (
     <>
-    <Login />
-    <Register />
-    <MemberArea />
-    <Fixtures />
+      Last Person Standing
+      <Login />
+      <Register />
+      <MemberArea />
+      <Fixtures />
     </>
   );
 }
