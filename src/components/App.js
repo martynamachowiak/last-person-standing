@@ -1,13 +1,21 @@
-import "../styles/App.css";
+import React from "react";
+import Fixtures from "./Fixtures";
+import "../App.css";
+import Login from "./Login";
+import Register from "./Register";
+import MemberArea from "./MembersArea";
 import Navbar from "../components/Navbar";
 
 function App() {
   return (
-    <div className="App">
+    <>
       <Navbar />
-
-      <h1>Last Person Standing</h1>
-    </div>
+      Last Person Standing
+      <Login />
+      <Register />
+      <MemberArea />
+      <Fixtures />
+    </>
   );
 }
 
